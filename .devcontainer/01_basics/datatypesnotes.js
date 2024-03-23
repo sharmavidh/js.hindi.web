@@ -35,3 +35,31 @@ const myFunction = function(){
 console.log(typeof anotherId);
 // return data type
 //null= object
+
+
+
+
+
+/////+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack (primitive), heap(non-primitive) memory
+
+let myName ="vidhi"
+
+let anotherName = myName
+anotherName = "nannu"
+
+console.log(myName);
+console.log(anotherName);
+
+let userOne = {
+    email:"user@google.com",
+    upi: "usr@ybl"
+}
+
+let userTwo = userOne
+userTwo.email ="vs@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
