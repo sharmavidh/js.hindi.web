@@ -19,3 +19,20 @@ console.log(Jsuser.email);
 console.log(Jsuser["email"]);
 console.log(Jsuser["full name"]);
 console.log(Jsuser["mySym"]);
+
+
+Jsuser.email = "vidhi@gmail.com"
+//Object.freeze(Jsuser)
+Jsuser.email = "vidhi@chatgpt.com"
+//console.log(Jsuser);
+
+Jsuser.greeting = function(){
+console.log("Hello JS user");
+}
+Jsuser.greetingTwo = function(){
+    console.log("Hello JS user");
+    }
+    
+
+    
+console.log(Jsuser.greeting());
