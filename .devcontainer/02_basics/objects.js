@@ -33,7 +33,7 @@ Jsuser.greetingTwo = function(){
     console.log('Hello JS user, ${this.name}');
    
 }
+
     
 
     
-console.log(Jsuser.greeting());
