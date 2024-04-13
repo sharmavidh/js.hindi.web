@@ -15,7 +15,7 @@ const Jsuser = {
 }
 
 //2console.log(JsUser.email);
-console.log(Jsuser.email);
+/*console.log(Jsuser.email);
 console.log(Jsuser["email"]);
 console.log(Jsuser["full name"]);
 console.log(Jsuser["mySym"]);
@@ -30,7 +30,7 @@ Jsuser.greeting = function(){
 console.log("Hello JS user");
 }
 Jsuser.greetingTwo = function(){
-    console.log('Hello JS user, ${this.name}');
+    //console.log('Hello JS user, ${this.name}');
    
 }
 
