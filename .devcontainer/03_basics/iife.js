@@ -15,3 +15,15 @@
     
 })()*/
 
+//+++++++++++++++++++++++++++++++++++++++++JAVASRIPT EXECUTION CONTEXT++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+/*{}=GLOBAL E C = 3 types
+Global execution Context
+Function execution Context
+Eval execution Context
+{}= Memory creation phase
+     Exection 
+     
+
+
+     
+/*
