@@ -6,6 +6,15 @@ const myObject = {
 }
 
 for (const key in myObject){
-    console.log(`${key}`);
+    console.log(`${key} shortout is for ${myObject[key]}`);
 }
+
+const programming = ["js", "rb", "py", "java", "cpp"]
+
+for(const key in object){
+    if (Object.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+    }
+}
+
     
